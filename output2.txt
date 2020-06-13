@@ -1,0 +1,88 @@
+
+MS Apriori for dataset nips with K=3,F=100,lambda_factor=0.300000,constraint_factor=0.000700
+
+Number of documents,words and non zero frequency words
+1500 12419 746316
+#####Reading input file as a tuple of words for each document#####
+Length of L = 4292
+Number of items in 1 frequent itemset = 1791
+######Computing level 2 candidate itemset######
+Level 2 candidate itemset computed of length 14499
+######Pruning level 2 candidate set to get our 2 itemset######
+######Generating counts of each candidate######
+Number of items in 2 frequent itemset = 393
+######Computing level 3 candidate itemset######
+Level 3 candidate itemset computed of length 212
+######Pruning level 3 candidate set to get our 3 itemset######
+######Generating counts of each candidate######
+
+3 Frequent itemsets:
+
+(('size', 'fixed', 'constant'), 247) , (('training', 'computation', 'general'), 377) , (('training', 'computation', 'tion'), 362) , (('training', 'general', 'tion'), 400) , (('computation', 'general', 'tion'), 404) , 
+Number of items in 3 frequent itemset = 5
+
+
+Time taken = 0 hours,6 minutes,52.345351 seconds
+
+
+
+MS Apriori for dataset nips with K=2,F=100,lambda_factor=0.600000,constraint_factor=0.000700
+
+Number of documents,words and non zero frequency words
+1500 12419 746316
+#####Reading input file as a tuple of words for each document#####
+Length of L = 2647
+Number of items in 1 frequent itemset = 1791
+######Computing level 2 candidate itemset######
+Level 2 candidate itemset computed of length 14499
+######Pruning level 2 candidate set to get our 2 itemset######
+######Generating counts of each candidate######
+
+2 Frequent itemsets:
+
+(('mellon', 'carnegie'), 111) , (('carlo', 'monte'), 113) , (('vector', 'present'), 557) , (('training', 'computation'), 574) , (('training', 'general'), 605) , (('training', 'tion'), 583) , (('computation', 'general'), 597) , (('computation', 'tion'), 609) , (('general', 'tion'), 614) , (('output', 'form'), 764) , (('algorithm', 'large'), 812) , (('introduction', 'network'), 1145) , 
+Number of items in 2 frequent itemset = 12
+
+
+Time taken = 0 hours,4 minutes,7.322491 seconds
+
+
+
+MS Apriori for dataset kos with K=2,F=100,lambda_factor=0.980000,constraint_factor=0.000070
+
+Number of documents,words and non zero frequency words
+3430 6906 353160
+#####Reading input file as a tuple of words for each document#####
+Length of L = 817
+Number of items in 1 frequent itemset = 808
+######Computing level 2 candidate itemset######
+Level 2 candidate itemset computed of length 1608
+######Pruning level 2 candidate set to get our 2 itemset######
+######Generating counts of each candidate######
+
+2 Frequent itemsets:
+
+(('direwolf', 'stocks'), 111) , (('barbero', 'hotshotxi'), 129) , (('bloomfield', 'virginiadem'), 134) , (('duderino', 'parecommend'), 196) , (('hstewart', 'materiel'), 257) , (('altsite', 'boxblogroll'), 331) , (('altsite', 'boxfeed_listing'), 331) , (('altsite', 'boxrdf_feeds'), 331) , (('altsite', 'bushsux'), 331) , (('altsite', 'calculator'), 331) , (('altsite', 'calistan'), 331) , (('altsite', 'dryfly'), 331) , (('altsite', 'endspan'), 331) , (('altsite', 'montclair'), 331) , (('altsite', 'newwindow'), 331) , (('altsite', 'openhttpwwwedwardsforprezcomdailykoshtml'), 331) , (('altsite', 'racine'), 331) , (('altsite', 'republicansforkerry'), 331) , (('altsite', 'startspan'), 331) , (('altsite', 'sunzoo'), 331) , (('altsite', 'var'), 331) , (('boxblogroll', 'boxfeed_listing'), 331) , (('boxblogroll', 'boxrdf_feeds'), 331) , (('boxblogroll', 'bushsux'), 331) , (('boxblogroll', 'calculator'), 331) , (('boxblogroll', 'calistan'), 331) , (('boxblogroll', 'dryfly'), 331) , (('boxblogroll', 'endspan'), 331) , (('boxblogroll', 'montclair'), 331) , (('boxblogroll', 'newwindow'), 331) , (('boxblogroll', 'openhttpwwwedwardsforprezcomdailykoshtml'), 331) , (('boxblogroll', 'racine'), 331) , (('boxblogroll', 'republicansforkerry'), 331) , (('boxblogroll', 'startspan'), 331) , (('boxblogroll', 'sunzoo'), 331) , (('boxblogroll', 'var'), 331) , (('boxfeed_listing', 'boxrdf_feeds'), 331) , (('boxfeed_listing', 'bushsux'), 331) , (('boxfeed_listing', 'calculator'), 331) , (('boxfeed_listing', 'calistan'), 331) , (('boxfeed_listing', 'dryfly'), 331) , (('boxfeed_listing', 'endspan'), 331) , (('boxfeed_listing', 'montclair'), 331) , (('boxfeed_listing', 'newwindow'), 331) , (('boxfeed_listing', 'openhttpwwwedwardsforprezcomdailykoshtml'), 331) , (('boxfeed_listing', 'racine'), 331) , (('boxfeed_listing', 'republicansforkerry'), 331) , (('boxfeed_listing', 'startspan'), 331) , (('boxfeed_listing', 'sunzoo'), 331) , (('boxfeed_listing', 'var'), 331) , (('boxrdf_feeds', 'bushsux'), 331) , (('boxrdf_feeds', 'calculator'), 331) , (('boxrdf_feeds', 'calistan'), 331) , (('boxrdf_feeds', 'dryfly'), 331) , (('boxrdf_feeds', 'endspan'), 331) , (('boxrdf_feeds', 'montclair'), 331) , (('boxrdf_feeds', 'newwindow'), 331) , (('boxrdf_feeds', 'openhttpwwwedwardsforprezcomdailykoshtml'), 331) , (('boxrdf_feeds', 'racine'), 331) , (('boxrdf_feeds', 'republicansforkerry'), 331) , (('boxrdf_feeds', 'startspan'), 331) , (('boxrdf_feeds', 'sunzoo'), 331) , (('boxrdf_feeds', 'var'), 331) , (('bushsux', 'calculator'), 331) , (('bushsux', 'calistan'), 331) , (('bushsux', 'dryfly'), 331) , (('bushsux', 'endspan'), 331) , (('bushsux', 'montclair'), 331) , (('bushsux', 'newwindow'), 331) , (('bushsux', 'openhttpwwwedwardsforprezcomdailykoshtml'), 331) , (('bushsux', 'racine'), 331) , (('bushsux', 'republicansforkerry'), 331) , (('bushsux', 'startspan'), 331) , (('bushsux', 'sunzoo'), 331) , (('bushsux', 'var'), 331) , (('calculator', 'calistan'), 331) , (('calculator', 'dryfly'), 331) , (('calculator', 'endspan'), 331) , (('calculator', 'montclair'), 331) , (('calculator', 'newwindow'), 331) , (('calculator', 'openhttpwwwedwardsforprezcomdailykoshtml'), 331) , (('calculator', 'racine'), 331) , (('calculator', 'republicansforkerry'), 331) , (('calculator', 'startspan'), 331) , (('calculator', 'sunzoo'), 331) , (('calculator', 'var'), 331) , (('calistan', 'dryfly'), 331) , (('calistan', 'endspan'), 331) , (('calistan', 'montclair'), 331) , (('calistan', 'newwindow'), 331) , (('calistan', 'openhttpwwwedwardsforprezcomdailykoshtml'), 331) , (('calistan', 'racine'), 331) , (('calistan', 'republicansforkerry'), 331) , (('calistan', 'startspan'), 331) , (('calistan', 'sunzoo'), 331) , (('calistan', 'var'), 331) , (('dryfly', 'endspan'), 331) , (('dryfly', 'montclair'), 331) , (('dryfly', 'newwindow'), 331) , (('dryfly', 'openhttpwwwedwardsforprezcomdailykoshtml'), 331) , (('dryfly', 'racine'), 331) , (('dryfly', 'republicansforkerry'), 331) , (('dryfly', 'startspan'), 331) , (('dryfly', 'sunzoo'), 331) , (('dryfly', 'var'), 331) , (('endspan', 'montclair'), 331) , (('endspan', 'newwindow'), 331) , (('endspan', 'openhttpwwwedwardsforprezcomdailykoshtml'), 331) , (('endspan', 'racine'), 331) , (('endspan', 'republicansforkerry'), 331) , (('endspan', 'startspan'), 331) , (('endspan', 'sunzoo'), 331) , (('endspan', 'var'), 331) , (('montclair', 'newwindow'), 331) , (('montclair', 'openhttpwwwedwardsforprezcomdailykoshtml'), 331) , (('montclair', 'racine'), 331) , (('montclair', 'republicansforkerry'), 331) , (('montclair', 'startspan'), 331) , (('montclair', 'sunzoo'), 331) , (('montclair', 'var'), 331) , (('newwindow', 'openhttpwwwedwardsforprezcomdailykoshtml'), 331) , (('newwindow', 'racine'), 331) , (('newwindow', 'republicansforkerry'), 331) , (('newwindow', 'startspan'), 331) , (('newwindow', 'sunzoo'), 331) , (('newwindow', 'var'), 331) , (('openhttpwwwedwardsforprezcomdailykoshtml', 'racine'), 331) , (('openhttpwwwedwardsforprezcomdailykoshtml', 'republicansforkerry'), 331) , (('openhttpwwwedwardsforprezcomdailykoshtml', 'startspan'), 331) , (('openhttpwwwedwardsforprezcomdailykoshtml', 'sunzoo'), 331) , (('openhttpwwwedwardsforprezcomdailykoshtml', 'var'), 331) , (('racine', 'republicansforkerry'), 331) , (('racine', 'startspan'), 331) , (('racine', 'sunzoo'), 331) , (('racine', 'var'), 331) , (('republicansforkerry', 'startspan'), 331) , (('republicansforkerry', 'sunzoo'), 331) , (('republicansforkerry', 'var'), 331) , (('startspan', 'sunzoo'), 331) , (('startspan', 'var'), 331) , (('sunzoo', 'var'), 331) , (('powered', 'username'), 331) , (('admin', 'asap'), 331) , (('admin', 'faq'), 331) , (('admin', 'login'), 331) , (('asap', 'faq'), 331) , (('asap', 'login'), 331) , (('faq', 'login'), 331) , (('ourcongressorg', 'password'), 331) , 
+Number of items in 2 frequent itemset = 149
+
+
+Time taken = 0 hours,0 minutes,27.234505 seconds
+
+
+
+MS Apriori for dataset kos with K=1,F=500,lambda_factor=0.980000,constraint_factor=0.000070
+
+Number of documents,words and non zero frequency words
+3430 6906 353160
+#####Reading input file as a tuple of words for each document#####
+Length of L = 53
+
+1 Frequent itemsets:
+
+('candidates', 505) , ('economy', 516) , ('country', 522) , ('governor', 529) , ('year', 532) , ('running', 532) , ('numbers', 542) , ('dean', 542) , ('gop', 544) , ('candidate', 545) , ('races', 569) , ('american', 575) , ('years', 588) , ('win', 589) , ('lead', 590) , ('november', 630) , ('voters', 633) , ('oct', 651) , ('party', 660) , ('bushs', 720) , ('national', 749) , ('states', 754) , ('race', 768) , ('news', 782) , ('vote', 783) , ('political', 784) , ('administration', 794) , ('john', 800) , ('republican', 806) , ('elections', 818) , ('iraq', 855) , ('state', 875) , ('polls', 879) , ('campaign', 960) , ('senate', 974) , ('president', 984) , ('people', 989) , ('primary', 994) , ('media', 1002) , ('election', 1006) , ('republicans', 1054) , ('democrats', 1068) , ('time', 1091) , ('house', 1215) , ('poll', 1237) , ('war', 1297) , ('democratic', 1468) , ('kerry', 1612) , ('general', 1653) , ('bush', 2123) , 
+Number of items in 1 frequent itemset = 50
+
+
+Time taken = 0 hours,0 minutes,0.002079 seconds
+
+

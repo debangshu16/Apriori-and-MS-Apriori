@@ -1,0 +1,128 @@
+
+
+
+Output for enron dataset for K=3 and F = 1500
+
+
+      support              itemsets  Frequency                           Items
+668  0.041820   (3449, 8242, 19189)     1667.0  (califonia, energizer, powell)
+669  0.040190  (3449, 19189, 15230)     1602.0     (califonia, powell, marker)
+670  0.044254  (8242, 19189, 15230)     1764.0     (energizer, powell, marker)
+Time taken to find 3 frequent items with minimum frequency 1500 for enron dataset is 241.15531539916992
+
+
+
+
+
+
+Output for kos dataset for K=3 and F = 500
+
+
+      support  ...                                      Items
+151  0.169971  ...         (bus, democraticleaning, democrat)
+152  0.146064  ...                  (bus, electing, democrat)
+153  0.186006  ...                      (bus, gene, democrat)
+154  0.162099  ...                     (bus, hours, democrat)
+155  0.191545  ...                    (bus, kerrey, democrat)
+156  0.158601  ...                  (bus, politics, democrat)
+157  0.160641  ...                 (bus, primarily, democrat)
+158  0.162682  ...                (bus, republican, democrat)
+159  0.157726  ...                      (bus, wapo, democrat)
+160  0.160350  ...             (bus, democraticleaning, gene)
+161  0.151895  ...            (bus, democraticleaning, hours)
+162  0.159767  ...           (bus, democraticleaning, kerrey)
+163  0.163848  ...       (bus, democraticleaning, republican)
+164  0.174927  ...                      (bus, electing, gene)
+165  0.160058  ...                    (bus, kerrey, electing)
+166  0.161808  ...                         (bus, hours, gene)
+167  0.269971  ...                        (bus, kerrey, gene)
+168  0.150146  ...                        (bus, medals, gene)
+169  0.188338  ...                      (bus, politics, gene)
+170  0.161808  ...                       (bus, polling, gene)
+171  0.173178  ...                    (bus, republican, gene)
+172  0.190379  ...                          (bus, wapo, gene)
+173  0.151020  ...                       (bus, kerrey, hours)
+174  0.149271  ...                   (bus, republican, hours)
+175  0.162099  ...                         (bus, wapo, hours)
+176  0.150729  ...                      (bus, medals, kerrey)
+177  0.196501  ...                    (bus, kerrey, politics)
+178  0.163557  ...                     (bus, polling, kerrey)
+179  0.162391  ...                  (bus, republican, kerrey)
+180  0.176385  ...                        (bus, wapo, kerrey)
+181  0.151895  ...                   (bus, polling, politics)
+182  0.150729  ...       (democraticleaning, hours, democrat)
+183  0.151020  ...      (democraticleaning, kerrey, democrat)
+184  0.156560  ...  (republican, democraticleaning, democrat)
+185  0.171429  ...                   (kerrey, gene, democrat)
+186  0.173469  ...               (kerrey, politics, democrat)
+187  0.149271  ...                (polling, kerrey, democrat)
+188  0.191837  ...              (primarily, kerrey, democrat)
+189  0.172595  ...            (primarily, politics, democrat)
+190  0.152478  ...                   (kerrey, electing, gene)
+191  0.177259  ...                   (kerrey, politics, gene)
+192  0.156268  ...                    (polling, kerrey, gene)
+193  0.149854  ...                 (republican, kerrey, gene)
+194  0.159475  ...                       (wapo, kerrey, gene)
+195  0.148397  ...                  (polling, politics, gene)
+196  0.160933  ...                (polling, kerrey, politics)
+197  0.151895  ...              (primarily, kerrey, politics)
+
+[47 rows x 4 columns]
+
+
+Time taken to find 3 frequent items with minimum frequency 500 for kos dataset is 0.9347844123840332 seconds
+
+
+
+
+
+
+Output for nips dataset for K=3 and F = 1000
+
+
+      support  ...                               Items
+213  0.693333  ...        (algorit, referenced, abstr)
+214  0.684000  ...       (restrictive, algorit, abstr)
+215  0.672000  ...           (session, algorit, abstr)
+216  0.706667  ...             (casdagli, func, abstr)
+217  0.671333  ...      (casdagli, introducing, abstr)
+..        ...  ...                                 ...
+562  0.668000  ...       (syst, referenced, processes)
+563  0.825333  ...  (restrictive, session, referenced)
+564  0.824000  ...     (restrictive, syst, referenced)
+565  0.786667  ...         (session, syst, referenced)
+566  0.774667  ...        (restrictive, session, syst)
+
+[354 rows x 4 columns]
+
+
+Time taken to find 3 frequent items with minimum frequency 1000 for nips dataset is 0.8216462135314941 seconds
+
+
+
+
+
+
+Output for nips dataset for K=5 and F = 800
+
+
+        support  ...                                              Items
+8077   0.543333  ...     (abstr, dat, referenced, restrictive, algorit)
+8078   0.542000  ...         (abstr, dat, referenced, session, algorit)
+8079   0.534667  ...        (abstr, dat, session, restrictive, algorit)
+8080   0.542000  ...     (abstr, referenced, func, algorit, informatik)
+8081   0.547333  ...          (neur, abstr, func, introducing, algorit)
+...         ...  ...                                                ...
+12593  0.626000  ...  (syst, referenced, session, probing, restrictive)
+12594  0.574000  ...  (syst, referenced, session, restrictive, proce...
+12595  0.535333  ...  (singhal, syst, referenced, session, restrictive)
+12596  0.542000  ...      (slx, syst, referenced, session, restrictive)
+12597  0.547333  ...   (syst, referenced, valued, session, restrictive)
+
+[4521 rows x 4 columns]
+
+
+Time taken to find 5 frequent items with minimum frequency 800 for nips dataset is 15.316817998886108 seconds
+
+
+
