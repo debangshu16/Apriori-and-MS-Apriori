@@ -5,4 +5,4 @@ The dataset used is the "Bag of Words" dataset found publicly in the UCI Machine
 
 The dataset name, the value of "K" and the minimum frequency for the item to be considered(supp_count) are to be passed as input parameters to both the codes.
 
-This was an assignment for the course "Data Mining and Machine Learning" at CMI. The outputs I obtained are also provided. 
+This was an assignment for the course "Data Mining and Machine Learning" at CMI. The outputs I obtained are also provided where output1 is the output obtained for the apriori algorithm and output2 is the output obtained for the MS-Apriori algorithm.  
